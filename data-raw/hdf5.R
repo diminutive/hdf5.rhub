@@ -15,5 +15,5 @@
 # Center      (  256.0,  256.0)
 #
 
-f <- "https://github.com/rouault/gdal_coverage/blob/trunk_with_coverage/autotest/gdrivers/data/groups.h5"
+f <-  "https://raw.githubusercontent.com/rouault/gdal_coverage/trunk_with_coverage/autotest/gdrivers/data/groups.h5"
 download.file(f, file.path("inst", "extdata", basename(f)), mode = "wb")
